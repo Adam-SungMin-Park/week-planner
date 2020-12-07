@@ -9,6 +9,7 @@
 
 h1 {
   font-family: sans-serif;
+  margin-top: 0;
 }
 
 .add-entry-button {
@@ -30,6 +31,7 @@ h1 {
   margin: auto;
   position: relative;
   top: -160px;
+  padding: 1rem 0;
 }
 
 .day-time-entries {
@@ -48,15 +50,37 @@ h1 {
 }
 
 textarea {
-  width: 458px;
+  width: 442px;
   height: 4rem;
 }
 
 .button-row {
   text-align: right;
   margin-top: 1rem;
+  margin-right: 1rem;
 }
 
 .hidden {
   display: none;
+}
+.gray-background{
+  background-color: rgba(0,0,0,0.4);
+}
+.white-background {
+  background-color: white;
+}
+.day-boxes{
+  display: flex;
+  position: relative;
+  bottom: 11rem;
+}
+.day{
+  flex-basis: calc(100%/7);
+  border: black solid 1px;
+  margin: 0 1rem;
+  text-align: center;
+  padding: 1rem 0;
+}
+.day:hover{
+  cursor: pointer;
 }
