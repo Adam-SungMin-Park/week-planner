@@ -105,9 +105,7 @@ table {
 tbody>tr:nth-child(odd){
   background-color: lightgray;
 }
-td {
 
-}
 .schedule-events-day{
   display: flex
 }
