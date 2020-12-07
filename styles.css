@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+.row-add-entry {
+  margin-top: 10rem;
+  text-align: center;
+}
+
 h1 {
   font-family: sans-serif;
 }
@@ -39,11 +44,17 @@ h1 {
   text-align: left;
   margin-left: 1rem;
 }
-textarea{
+
+textarea {
   width: 458px;
   height: 4rem;
 }
-.button-row{
+
+.button-row {
   text-align: right;
   margin-top: 1rem;
+}
+
+.hidden {
+  display: none;
 }
