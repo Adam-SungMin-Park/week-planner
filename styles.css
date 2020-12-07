@@ -1,0 +1,22 @@
+.row {
+  text-align: center;
+}
+h1 {
+  font-family: sans-serif;
+
+}
+.add-entry-button{
+  width: 8rem;
+  height: 34px;
+  background-color: #99D3FF;
+  border: none;
+  margin-top: 1rem;
+  outline: none;
+}
+.add-entry-button:hover{
+  cursor: pointer;
+
+}
+.modal {
+  text-align: center;
+}
