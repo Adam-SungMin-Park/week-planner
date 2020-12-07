@@ -63,24 +63,39 @@ textarea {
 .hidden {
   display: none;
 }
-.gray-background{
-  background-color: rgba(0,0,0,0.4);
+
+.gray-background {
+  background-color: rgba(0, 0, 0, 0.4);
 }
+
 .white-background {
   background-color: white;
 }
-.day-boxes{
+
+.day-boxes {
   display: flex;
   position: relative;
   bottom: 11rem;
 }
-.day{
-  flex-basis: calc(100%/7);
+
+.day {
+  flex-basis: calc(100% / 7);
   border: black solid 1px;
   margin: 0 1rem;
   text-align: center;
   padding: 1rem 0;
 }
-.day:hover{
+
+.day:hover {
   cursor: pointer;
+}
+
+table {
+  border: 1px solid black;
+  width: 50rem;
+  text-align: center;
+}
+
+tr {
+  border: 1px solid black;
 }
