@@ -1,3 +1,10 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  max-width: 942px;
+  margin: auto;
+}
 .row {
   text-align: center;
 }
@@ -92,10 +99,27 @@ textarea {
 
 table {
   border: 1px solid black;
-  width: 50rem;
-  text-align: center;
+  width: 29rem;
+  text-align: left;
 }
+tbody>tr:nth-child(odd){
+  background-color: lightgray;
+}
+td {
 
-tr {
-  border: 1px solid black;
+}
+.schedule-events-day{
+  display: flex
+}
+.time-table{
+  width: 12rem;
+}
+.description-table{
+  width: 46rem;
+}
+thead{
+  background-color: gray;
+}
+tr{
+  height: 2rem;
 }
