@@ -1,22 +1,38 @@
 .row {
   text-align: center;
 }
+
 h1 {
   font-family: sans-serif;
-
 }
-.add-entry-button{
+
+.add-entry-button {
   width: 8rem;
   height: 34px;
-  background-color: #99D3FF;
+  background-color: #99d3ff;
   border: none;
   margin-top: 1rem;
   outline: none;
 }
-.add-entry-button:hover{
-  cursor: pointer;
 
+.add-entry-button:hover {
+  cursor: pointer;
 }
+
 .modal {
   text-align: center;
+  width: 30rem;
+  margin: auto;
+}
+
+.day-time-entries {
+  display: flex;
+}
+
+.day-entry {
+  margin-right: 20px;
+}
+
+.description {
+  margin-top: 20px;
 }
