@@ -27,6 +27,7 @@ h1 {
 
 .day-time-entries {
   display: flex;
+  margin-left: 1rem;
 }
 
 .day-entry {
@@ -35,4 +36,14 @@ h1 {
 
 .description {
   margin-top: 20px;
+  text-align: left;
+  margin-left: 1rem;
+}
+textarea{
+  width: 458px;
+  height: 4rem;
+}
+.button-row{
+  text-align: right;
+  margin-top: 1rem;
 }
