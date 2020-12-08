@@ -95,6 +95,7 @@ textarea {
 
 .day:hover {
   cursor: pointer;
+  background-color:lightgray;
 }
 
 table {
@@ -121,11 +122,12 @@ thead{
 tr{
   height: 2rem;
 }
+
 .table-title{
-  text-align: center;
+  text-align:center;
   font-size: 20px;
-  font-weight: 600;
-  font-family: sans-serif;
-  margin-top: -4rem;
-  margin-bottom: 1rem;
+  font-weight:600;
+  font-family:sans-serif;
+  margin-top:-4rem;
+  margin-bottom:1rem;
 }
