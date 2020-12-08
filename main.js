@@ -60,6 +60,18 @@ document.addEventListener("DOMContentLoaded",function(event){
 function renderTable(day){
   var $completeTable =document.createElement('div');
   $completeTable.setAttribute('class','schedule-events-day');
+  var $timeTable = document.createElement('div');
+  $timeTable.setAttribute('class', 'time-table');
+  $completeTable.appendChild($timeTable);
 
+  var $thead = document.createElement('thead');
+  $thead.appendChild($timeTable);
+
+  var $tr = document.createElement('tr');
+
+  var $td = document.createElement('td');
+  $td.textContent = data.time;
+
+  $thead.appendChild($tr);
   return $completeTable;
 }
