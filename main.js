@@ -1,8 +1,7 @@
 var $modal = document.querySelector('.modal');
 var $addEntryButton = document.querySelector('.add-entry-button');
 var $bodyBackground=document.querySelector("body");
-var $days = document.querySelectorAll('.day');
-console.log($days);
+var $td = document.querySelector('#td');
 
 /**function scheduledEventsDay(event){
 
@@ -61,19 +60,6 @@ document.addEventListener("DOMContentLoaded",function(event){
 function renderTable(day){
   var $completeTable =document.createElement('div');
   $completeTable.setAttribute('class','schedule-events-day');
-
-  var $timeTable = document.createElement('div');
-  $timeTable.setAttribute('class','time-table');
-  $completeTable.appendChild($timeTable);
-
-
-  var $thead =document.createElement('thead');
-  $thead.appendChild($timeTable);
-
-  var $tr = document.createElement('tr');
-  $tr.textContent = data.elements.time;
-  $tr.appendChild($thead);
-
 
   return $completeTable;
 }
